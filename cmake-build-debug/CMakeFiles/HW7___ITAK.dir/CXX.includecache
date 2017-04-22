@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.cpp
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Configuration.cpp
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.cpp
+DenialOfServiceAnalyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.h
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.h
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.cpp
+PortScanAnalyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.h
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.h
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.cpp
+ResultSet.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.h
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/main.cpp
+iostream
+-
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.cpp
+sstream
+-
+TestSuites.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.h
+../Main/ResultSet.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.h
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.h
+iostream
+-
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/testMain.cpp
+iostream
+-
+TestSuites.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.h
+

@@ -1,0 +1,14 @@
+//
+// Created by Nate on 4/22/2017.
+//
+
+#ifndef HW7_ITAK_DENIALOFSERVICEANALYZER_H
+#define HW7_ITAK_DENIALOFSERVICEANALYZER_H
+
+
+class DenialOfServiceAnalyzer {
+
+};
+
+
+#endif //HW7_ITAK_DENIALOFSERVICEANALYZER_H

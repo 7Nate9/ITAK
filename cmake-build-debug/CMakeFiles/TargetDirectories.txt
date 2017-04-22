@@ -1,0 +1,4 @@
+C:/Users/Nate/CLionProjects/HW7 - ITAK/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Nate/CLionProjects/HW7 - ITAK/cmake-build-debug/CMakeFiles/TestMain.dir
+C:/Users/Nate/CLionProjects/HW7 - ITAK/cmake-build-debug/CMakeFiles/Main.dir
+C:/Users/Nate/CLionProjects/HW7 - ITAK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
