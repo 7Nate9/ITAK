@@ -126,9 +126,6 @@ void TestSuites::testDenialOfServiceAnalyzer(std::ostream& out)
 
     std::ifstream fin("testInput.txt");
 
-    if (fin.fail())
-        out << "File failed to open." << std::endl;
-
     ResultSet results = denial.run(fin);
 
     fin.close();
@@ -245,5 +242,4 @@ void TestSuites::testPortScanAnalyzer(std::ostream& out)
             out << "Port Scan fails on Possible Attackers: " << results.lookup("Possible Attackers")[i] << " should not be present, but is." <<std::endl;
         }
     }
-
 }
