@@ -28,10 +28,10 @@ ResultSet PortScanAnalyzer::run(std::istream& in)
         split(inputLine, ',', lineItems, 4);
 
         //Maybe not necessary?
-        for (unsigned int i = 0; i < 4; i++)
-        {
-            trim(lineItems[i]);
-        }
+        //for (unsigned int i = 0; i < 4; i++)
+        //{
+        //    trim(lineItems[i]);
+        //}
         //end
 
         std::string timeStamp = lineItems[0];
@@ -83,4 +83,6 @@ ResultSet PortScanAnalyzer::run(std::istream& in)
 
         it++;
     }
+
+    return results;
 }

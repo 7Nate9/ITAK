@@ -16,6 +16,7 @@ void TestSuites::testSuites(std::ostream& out)
     testResultSet(out);
     testConfiguration(out);
     testDenialOfServiceAnalyzer(out);
+    testPortScanAnalyzer(out);
 }
 
 void TestSuites::testResultSet(std::ostream& out)
@@ -99,14 +100,34 @@ void TestSuites::testDenialOfServiceAnalyzer(std::ostream& out)
         DenialOfServiceAnalyzer badDenial1(badConfig1);
         out << "Denial of Service fails on initialization: Should not be able to initialize without Timeframe." << std::endl;
     }
-    catch("")
+    catch(char const* e)
     {
+    }
 
+    try
+    {
+        DenialOfServiceAnalyzer badDenial2(badConfig2);
+        out << "Denial of Service fails on initialization: Should not be able to initialize without Likely Attack Message Count." << std::endl;
+    }
+    catch(char const* e)
+    {
+    }
+
+    try
+    {
+        DenialOfServiceAnalyzer badDenial3(badConfig3);
+        out << "Denial of Service fails on initialization: Should not be able to initialize without Possible Attack Message Count." << std::endl;
+    }
+    catch(char const* e)
+    {
     }
 
     DenialOfServiceAnalyzer denial(config);
 
     std::ifstream fin("testInput.txt");
+
+    if (fin.fail())
+        out << "File failed to open." << std::endl;
 
     ResultSet results = denial.run(fin);
 
@@ -157,6 +178,30 @@ void TestSuites::testPortScanAnalyzer(std::ostream& out)
     config.insertConfigParam("Likely Attack Port Count", "10");
     config.insertConfigParam("Possible Attack Port Count", "5");
 
+    Configuration badConfig1;
+    badConfig1.insertConfigParam("Possible Attack Port Count", "5");
+
+    Configuration badConfig2;
+    badConfig2.insertConfigParam("Likely Attack Port Count", "5");
+
+    try {
+        PortScanAnalyzer badPort1(badConfig1);
+        out << "Port Scan fails on initialization. Should not be able to initialize without Likely Attack Port Count." << std::endl;
+    }
+    catch(char const* e)
+    {
+
+    }
+
+    try {
+        PortScanAnalyzer badPort2(badConfig2);
+        out << "Port Scan fails on initialization. Should not be able to initialize without Possible Attack Port Count." << std::endl;
+    }
+    catch(char const* e)
+    {
+
+    }
+
     PortScanAnalyzer port(config);
 
     std::ifstream fin("testInput.txt");
@@ -165,5 +210,40 @@ void TestSuites::testPortScanAnalyzer(std::ostream& out)
 
     fin.close();
 
+    if (!ipIsInResults(results, "Likely Attackers", "1.1.1.2"));
+    {
+        out << "Port Scan fails on Likely Attackers: 1.1.1.2 should be present, but is not." << std::endl;
+    }
+
+    if (!ipIsInResults(results, "Likely Attackers", "6.6.6.6"));
+    {
+        out << "Port Scan fails on Likely Attackers: 6.6.6.6 should be present, but is not." << std::endl;
+    }
+
+    if (!ipIsInResults(results, "Possible Attackers", "2.2.2.3"))
+    {
+        out << "Port Scan fails on Possible Attackers: 2.2.2.3 should be present, but is not." << std::endl;
+    }
+
+    if (!ipIsInResults(results, "Possible Attackers", "7.7.7.7"))
+    {
+        out << "Port Scan fails on Possible Attackers: 7.7.7.7 should be present, but is not." << std::endl;
+    }
+
+    for (unsigned int i = 0; i < results.lookup("Likely Attackers").size(); i++)
+    {
+        if (results.lookup("Likely Attackers")[i] != "1.1.1.2" && results.lookup("Likely Attackers")[i] != "6.6.6.6")
+        {
+            out << "Port Scan fails on Likely Attackers: " << results.lookup("Likely Attackers")[i] << " should not be present, but is." <<std::endl;
+        }
+    }
+
+    for (unsigned int i = 0; i < results.lookup("Possible Attackers").size(); i++)
+    {
+        if (results.lookup("Possible Attackers")[i] != "2.2.2.3" && results.lookup("Possible Attackers")[i] != "7.7.7.7")
+        {
+            out << "Port Scan fails on Possible Attackers: " << results.lookup("Possible Attackers")[i] << " should not be present, but is." <<std::endl;
+        }
+    }
 
 }

@@ -75,6 +75,8 @@ cmath
 -
 limits
 -
+vector
+-
 Utils.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
 
@@ -83,6 +85,8 @@ string
 -
 fstream
 -
+ResultSet.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/main.cpp
 fstream

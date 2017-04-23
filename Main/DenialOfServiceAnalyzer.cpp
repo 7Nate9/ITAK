@@ -28,16 +28,14 @@ ResultSet DenialOfServiceAnalyzer::run(std::istream& in)
     std::string inputLine;
     while(std::getline(in, inputLine))
     {
-        std::cout << inputLine << std::endl;
-
         std::string lineItems[4];
         split(inputLine, ',', lineItems, 4);
 
         //Maybe not necessary?
-        for (unsigned int i = 0; i < 4; i++)
-        {
-            trim(lineItems[i]);
-        }
+        //for (unsigned int i = 0; i < 4; i++)
+        //{
+        //    trim(lineItems[i]);
+        //}
         //end
 
         int timeStamp = convertStringToInt(lineItems[0]);
@@ -74,31 +72,43 @@ ResultSet DenialOfServiceAnalyzer::run(std::istream& in)
     int likelyThreshold = config.getConfigAsInt("Likely Attack Message Count");
     int possibleThreshold = config.getConfigAsInt("Possible Attack Message Count");
 
-    std::map<std::string, std::map<int, int>>::iterator it = inputData.begin();
-    while(it != inputData.end())
+    results.addToValueVector("Timeframe", std::to_string(timeframe));
+
+    for (std::map<std::string, std::map<int, int>>::iterator ipIt = inputData.begin(); ipIt != inputData.end(); ipIt++)
     {
-        std::map<int, int>::iterator it2 = (it->second).begin();
-        while(it2 != (it->second).end())
+        bool likely = false;
+        bool possible = false;
+
+        for (std::map<int, int>::iterator timeIt = (ipIt->second).begin(); timeIt != (ipIt->second).end(); timeIt++)
         {
             unsigned int messageCount = 0;
 
-            for (std::map<int, int>::iterator it3 = it2; it3->first < it2->first + timeframe && it3 != (it->second).end(); it3++)
+            for (std::map<int, int>::iterator timeIt2 = timeIt; timeIt2->first < timeIt->first + timeframe && timeIt2 != (ipIt->second).end(); timeIt2++)
             {
-                messageCount += it3->second;
+                messageCount += timeIt2->second;
             }
 
             if (messageCount >= likelyThreshold)
             {
-                results.addToValueVector("Likely Attacker", it->first);
+                likely = true;
+                results.addToValueVector("Attack Periods", std::to_string(timeIt->first) + "-" + std::to_string(timeIt->first + timeframe));
             }
             else if (messageCount >= possibleThreshold)
             {
-                results.addToValueVector("Possible Attackers", it->first);
+                possible = true;
+                results.addToValueVector("Attack Periods", std::to_string(timeIt->first) + "-" + std::to_string(timeIt->first + timeframe));
             }
-
-            it2++;
         }
 
-        it++;
+        if (likely)
+        {
+            results.addToValueVector("Likely Attackers", ipIt->first);
+        }
+        else if (possible)
+        {
+            results.addToValueVector("Possible Attackers", ipIt->first);
+        }
     }
+
+    return results;
 }

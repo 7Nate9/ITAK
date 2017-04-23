@@ -22,10 +22,10 @@ void ResultSet::insertResult(std::string key, std::vector<std::string> value)
 
 void ResultSet::addToValueVector(std::string key, std::string newValue)
 {
-    results[key].push_back(newValue);
+    results.at(key).push_back(newValue);
 }
 
 std::vector<std::string> ResultSet::lookup(std::string key)
 {
-    return results[key];
+    return results.at(key);
 }

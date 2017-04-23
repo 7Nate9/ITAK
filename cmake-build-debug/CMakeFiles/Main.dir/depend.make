@@ -3,6 +3,7 @@
 
 CMakeFiles/Main.dir/Main/Configuration.cpp.obj: ../Main/Configuration.cpp
 CMakeFiles/Main.dir/Main/Configuration.cpp.obj: ../Main/Configuration.h
+CMakeFiles/Main.dir/Main/Configuration.cpp.obj: ../Main/ResultSet.h
 CMakeFiles/Main.dir/Main/Configuration.cpp.obj: ../Main/Utils.h
 
 CMakeFiles/Main.dir/Main/DenialOfServiceAnalyzer.cpp.obj: ../Main/Analyzer.h
@@ -22,6 +23,7 @@ CMakeFiles/Main.dir/Main/PortScanAnalyzer.cpp.obj: ../Main/Utils.h
 CMakeFiles/Main.dir/Main/ResultSet.cpp.obj: ../Main/ResultSet.cpp
 CMakeFiles/Main.dir/Main/ResultSet.cpp.obj: ../Main/ResultSet.h
 
+CMakeFiles/Main.dir/Main/Utils.cpp.obj: ../Main/ResultSet.h
 CMakeFiles/Main.dir/Main/Utils.cpp.obj: ../Main/Utils.cpp
 CMakeFiles/Main.dir/Main/Utils.cpp.obj: ../Main/Utils.h
 

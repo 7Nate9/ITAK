@@ -166,6 +166,10 @@
 			<Option target="TestMain"/>
 			<Option target="Main"/>
 		</Unit>
+		<Unit filename="C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/input.txt">
+			<Option target="TestMain"/>
+			<Option target="Main"/>
+		</Unit>
 		<Unit filename="C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/main.cpp">
 			<Option target="Main"/>
 		</Unit>
@@ -173,6 +177,9 @@
 			<Option target="TestMain"/>
 		</Unit>
 		<Unit filename="C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.h">
+			<Option target="TestMain"/>
+		</Unit>
+		<Unit filename="C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/testInput.txt">
 			<Option target="TestMain"/>
 		</Unit>
 		<Unit filename="C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/testMain.cpp">

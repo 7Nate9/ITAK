@@ -172,5 +172,11 @@ bool ipIsInResults(ResultSet results, std::string key, std::string ip)
 {
     std::vector<std::string> result = results.lookup(key);
 
-    return (find(result.begin(), result.end(), ip) != result.end());
+    for (unsigned int i = 0; i < result.size(); i++)
+    {
+        if (result[i] == ip)
+            return true;
+    }
+
+    return false;
 }
