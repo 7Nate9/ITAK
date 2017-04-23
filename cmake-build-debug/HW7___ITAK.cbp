@@ -122,10 +122,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.cpp">
-			<Option target="TestMain"/>
-			<Option target="Main"/>
-		</Unit>
 		<Unit filename="C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.h">
 			<Option target="TestMain"/>
 			<Option target="Main"/>

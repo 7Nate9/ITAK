@@ -128,33 +128,9 @@ CMakeFiles/Main.dir/Main/PortScanAnalyzer.cpp.obj.provides: CMakeFiles/Main.dir/
 CMakeFiles/Main.dir/Main/PortScanAnalyzer.cpp.obj.provides.build: CMakeFiles/Main.dir/Main/PortScanAnalyzer.cpp.obj
 
 
-CMakeFiles/Main.dir/Main/Analyzer.cpp.obj: CMakeFiles/Main.dir/flags.make
-CMakeFiles/Main.dir/Main/Analyzer.cpp.obj: ../Main/Analyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Main.dir/Main/Analyzer.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Main.dir\Main\Analyzer.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Analyzer.cpp"
-
-CMakeFiles/Main.dir/Main/Analyzer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/Main/Analyzer.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Analyzer.cpp" > CMakeFiles\Main.dir\Main\Analyzer.cpp.i
-
-CMakeFiles/Main.dir/Main/Analyzer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/Main/Analyzer.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Analyzer.cpp" -o CMakeFiles\Main.dir\Main\Analyzer.cpp.s
-
-CMakeFiles/Main.dir/Main/Analyzer.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Main.dir/Main/Analyzer.cpp.obj.requires
-
-CMakeFiles/Main.dir/Main/Analyzer.cpp.obj.provides: CMakeFiles/Main.dir/Main/Analyzer.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/Main/Analyzer.cpp.obj.provides.build
-.PHONY : CMakeFiles/Main.dir/Main/Analyzer.cpp.obj.provides
-
-CMakeFiles/Main.dir/Main/Analyzer.cpp.obj.provides.build: CMakeFiles/Main.dir/Main/Analyzer.cpp.obj
-
-
 CMakeFiles/Main.dir/Main/Configuration.cpp.obj: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Main/Configuration.cpp.obj: ../Main/Configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Main.dir/Main/Configuration.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Main.dir/Main/Configuration.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Main.dir\Main\Configuration.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Configuration.cpp"
 
 CMakeFiles/Main.dir/Main/Configuration.cpp.i: cmake_force
@@ -178,7 +154,7 @@ CMakeFiles/Main.dir/Main/Configuration.cpp.obj.provides.build: CMakeFiles/Main.d
 
 CMakeFiles/Main.dir/Main/ResultSet.cpp.obj: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Main/ResultSet.cpp.obj: ../Main/ResultSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Main.dir/Main/ResultSet.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Main.dir/Main/ResultSet.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Main.dir\Main\ResultSet.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\ResultSet.cpp"
 
 CMakeFiles/Main.dir/Main/ResultSet.cpp.i: cmake_force
@@ -202,7 +178,7 @@ CMakeFiles/Main.dir/Main/ResultSet.cpp.obj.provides.build: CMakeFiles/Main.dir/M
 
 CMakeFiles/Main.dir/Main/Utils.cpp.obj: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Main/Utils.cpp.obj: ../Main/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Main.dir/Main/Utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Main.dir/Main/Utils.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Main.dir\Main\Utils.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Utils.cpp"
 
 CMakeFiles/Main.dir/Main/Utils.cpp.i: cmake_force
@@ -229,7 +205,6 @@ Main_OBJECTS = \
 "CMakeFiles/Main.dir/Main/main.cpp.obj" \
 "CMakeFiles/Main.dir/Main/DenialOfServiceAnalyzer.cpp.obj" \
 "CMakeFiles/Main.dir/Main/PortScanAnalyzer.cpp.obj" \
-"CMakeFiles/Main.dir/Main/Analyzer.cpp.obj" \
 "CMakeFiles/Main.dir/Main/Configuration.cpp.obj" \
 "CMakeFiles/Main.dir/Main/ResultSet.cpp.obj" \
 "CMakeFiles/Main.dir/Main/Utils.cpp.obj"
@@ -240,7 +215,6 @@ Main_EXTERNAL_OBJECTS =
 Main.exe: CMakeFiles/Main.dir/Main/main.cpp.obj
 Main.exe: CMakeFiles/Main.dir/Main/DenialOfServiceAnalyzer.cpp.obj
 Main.exe: CMakeFiles/Main.dir/Main/PortScanAnalyzer.cpp.obj
-Main.exe: CMakeFiles/Main.dir/Main/Analyzer.cpp.obj
 Main.exe: CMakeFiles/Main.dir/Main/Configuration.cpp.obj
 Main.exe: CMakeFiles/Main.dir/Main/ResultSet.cpp.obj
 Main.exe: CMakeFiles/Main.dir/Main/Utils.cpp.obj
@@ -248,7 +222,7 @@ Main.exe: CMakeFiles/Main.dir/build.make
 Main.exe: CMakeFiles/Main.dir/linklibs.rsp
 Main.exe: CMakeFiles/Main.dir/objects1.rsp
 Main.exe: CMakeFiles/Main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -259,7 +233,6 @@ CMakeFiles/Main.dir/build: Main.exe
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Main/main.cpp.obj.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Main/DenialOfServiceAnalyzer.cpp.obj.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Main/PortScanAnalyzer.cpp.obj.requires
-CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Main/Analyzer.cpp.obj.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Main/Configuration.cpp.obj.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Main/ResultSet.cpp.obj.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Main/Utils.cpp.obj.requires

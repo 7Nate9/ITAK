@@ -7,6 +7,7 @@
 
 #include <string>
 #include <fstream>
+#include "ResultSet.h"
 
 std::string getStringInput(std::string prompt);
 
@@ -19,6 +20,6 @@ std::string leftTrim(const std::string &str);
 std::string rightTrim(const std::string &str);
 std::string trim(const std::string& str);
 bool IsNotWhiteSpace (char ch);
-
+bool ipIsInResults(ResultSet results,std::string key, std::string ip);
 
 #endif //GEO_REGIONS_UTILS_H

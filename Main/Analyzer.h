@@ -8,8 +8,8 @@
 class Analyzer
 {
 public:
-    virtual ResultSet run(std::istream in) = 0;
-    Analyzer();
+    virtual ResultSet run(std::istream& in) = 0;
+    Analyzer(){}
 protected:
     Configuration config;
 };

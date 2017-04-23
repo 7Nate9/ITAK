@@ -10,6 +10,7 @@
 #include <fstream>
 #include <cmath>
 #include <limits>
+#include <vector>
 #include "Utils.h"
 
 std::string getStringInput(std::string prompt)
@@ -165,4 +166,11 @@ std::string trim(const std::string& str) {
 //       vertical tab (0x0b, '\v')
 bool IsNotWhiteSpace (char ch) {
     return !std::isspace<char>(ch , std::locale::classic() );
+}
+
+bool ipIsInResults(ResultSet results, std::string key, std::string ip)
+{
+    std::vector<std::string> result = results.lookup(key);
+
+    return (find(result.begin(), result.end(), ip) != result.end());
 }

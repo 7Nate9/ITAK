@@ -6,21 +6,45 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.cpp
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.h
+Configuration.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Configuration.h
+ResultSet.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.h
+iostream
+-
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Configuration.cpp
+Configuration.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Configuration.h
+Utils.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Configuration.h
+map
+-
+string
+-
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.cpp
 DenialOfServiceAnalyzer.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.h
+Utils.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.h
+Analyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.cpp
 PortScanAnalyzer.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.h
+Utils.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.h
+Analyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.cpp
 ResultSet.h
@@ -36,7 +60,35 @@ vector
 map
 -
 
-C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/main.cpp
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.cpp
+algorithm
+-
+string
+-
 iostream
 -
+sstream
+-
+fstream
+-
+cmath
+-
+limits
+-
+Utils.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
+string
+-
+fstream
+-
+
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/main.cpp
+fstream
+-
+DenialOfServiceAnalyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.h
+PortScanAnalyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.h
 

@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.cpp
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.h
+Configuration.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Configuration.h
+ResultSet.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.h
+iostream
+-
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Configuration.cpp
 Configuration.h
@@ -23,14 +29,22 @@ string
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.cpp
 DenialOfServiceAnalyzer.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.h
+Utils.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.h
+Analyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.cpp
 PortScanAnalyzer.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.h
+Utils.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.h
+Analyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Analyzer.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.cpp
 ResultSet.h
@@ -61,6 +75,8 @@ cmath
 -
 limits
 -
+vector
+-
 Utils.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
 
@@ -69,9 +85,13 @@ string
 -
 fstream
 -
+ResultSet.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.cpp
 sstream
+-
+fstream
 -
 TestSuites.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.h
@@ -79,6 +99,12 @@ C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/ResultSet.h
 ../Main/Configuration.h
 C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Configuration.h
+../Main/DenialOfServiceAnalyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/DenialOfServiceAnalyzer.h
+../Main/PortScanAnalyzer.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/PortScanAnalyzer.h
+../Main/Utils.h
+C:/Users/Nate/CLionProjects/HW7 - ITAK/Main/Utils.h
 
 C:/Users/Nate/CLionProjects/HW7 - ITAK/TestMain/TestSuites.h
 iostream

@@ -135,36 +135,6 @@ Main/fast:
 	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-Main/Analyzer.obj: Main/Analyzer.cpp.obj
-
-.PHONY : Main/Analyzer.obj
-
-# target to build an object file
-Main/Analyzer.cpp.obj:
-	$(MAKE) -f CMakeFiles\TestMain.dir\build.make CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj
-	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/Main/Analyzer.cpp.obj
-.PHONY : Main/Analyzer.cpp.obj
-
-Main/Analyzer.i: Main/Analyzer.cpp.i
-
-.PHONY : Main/Analyzer.i
-
-# target to preprocess a source file
-Main/Analyzer.cpp.i:
-	$(MAKE) -f CMakeFiles\TestMain.dir\build.make CMakeFiles/TestMain.dir/Main/Analyzer.cpp.i
-	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/Main/Analyzer.cpp.i
-.PHONY : Main/Analyzer.cpp.i
-
-Main/Analyzer.s: Main/Analyzer.cpp.s
-
-.PHONY : Main/Analyzer.s
-
-# target to generate assembly for a file
-Main/Analyzer.cpp.s:
-	$(MAKE) -f CMakeFiles\TestMain.dir\build.make CMakeFiles/TestMain.dir/Main/Analyzer.cpp.s
-	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/Main/Analyzer.cpp.s
-.PHONY : Main/Analyzer.cpp.s
-
 Main/Configuration.obj: Main/Configuration.cpp.obj
 
 .PHONY : Main/Configuration.obj
@@ -406,9 +376,6 @@ help:
 	@echo ... TestMain
 	@echo ... Main
 	@echo ... rebuild_cache
-	@echo ... Main/Analyzer.obj
-	@echo ... Main/Analyzer.i
-	@echo ... Main/Analyzer.s
 	@echo ... Main/Configuration.obj
 	@echo ... Main/Configuration.i
 	@echo ... Main/Configuration.s

@@ -128,33 +128,9 @@ CMakeFiles/TestMain.dir/Main/PortScanAnalyzer.cpp.obj.provides: CMakeFiles/TestM
 CMakeFiles/TestMain.dir/Main/PortScanAnalyzer.cpp.obj.provides.build: CMakeFiles/TestMain.dir/Main/PortScanAnalyzer.cpp.obj
 
 
-CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj: CMakeFiles/TestMain.dir/flags.make
-CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj: ../Main/Analyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestMain.dir\Main\Analyzer.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Analyzer.cpp"
-
-CMakeFiles/TestMain.dir/Main/Analyzer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestMain.dir/Main/Analyzer.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Analyzer.cpp" > CMakeFiles\TestMain.dir\Main\Analyzer.cpp.i
-
-CMakeFiles/TestMain.dir/Main/Analyzer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestMain.dir/Main/Analyzer.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Analyzer.cpp" -o CMakeFiles\TestMain.dir\Main\Analyzer.cpp.s
-
-CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj.requires:
-
-.PHONY : CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj.requires
-
-CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj.provides: CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\TestMain.dir\build.make CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj.provides.build
-.PHONY : CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj.provides
-
-CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj.provides.build: CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj
-
-
 CMakeFiles/TestMain.dir/Main/Configuration.cpp.obj: CMakeFiles/TestMain.dir/flags.make
 CMakeFiles/TestMain.dir/Main/Configuration.cpp.obj: ../Main/Configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestMain.dir/Main/Configuration.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestMain.dir/Main/Configuration.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestMain.dir\Main\Configuration.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Configuration.cpp"
 
 CMakeFiles/TestMain.dir/Main/Configuration.cpp.i: cmake_force
@@ -178,7 +154,7 @@ CMakeFiles/TestMain.dir/Main/Configuration.cpp.obj.provides.build: CMakeFiles/Te
 
 CMakeFiles/TestMain.dir/Main/ResultSet.cpp.obj: CMakeFiles/TestMain.dir/flags.make
 CMakeFiles/TestMain.dir/Main/ResultSet.cpp.obj: ../Main/ResultSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TestMain.dir/Main/ResultSet.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestMain.dir/Main/ResultSet.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestMain.dir\Main\ResultSet.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\ResultSet.cpp"
 
 CMakeFiles/TestMain.dir/Main/ResultSet.cpp.i: cmake_force
@@ -202,7 +178,7 @@ CMakeFiles/TestMain.dir/Main/ResultSet.cpp.obj.provides.build: CMakeFiles/TestMa
 
 CMakeFiles/TestMain.dir/Main/Utils.cpp.obj: CMakeFiles/TestMain.dir/flags.make
 CMakeFiles/TestMain.dir/Main/Utils.cpp.obj: ../Main/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TestMain.dir/Main/Utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TestMain.dir/Main/Utils.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestMain.dir\Main\Utils.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\Main\Utils.cpp"
 
 CMakeFiles/TestMain.dir/Main/Utils.cpp.i: cmake_force
@@ -226,7 +202,7 @@ CMakeFiles/TestMain.dir/Main/Utils.cpp.obj.provides.build: CMakeFiles/TestMain.d
 
 CMakeFiles/TestMain.dir/TestMain/TestSuites.cpp.obj: CMakeFiles/TestMain.dir/flags.make
 CMakeFiles/TestMain.dir/TestMain/TestSuites.cpp.obj: ../TestMain/TestSuites.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TestMain.dir/TestMain/TestSuites.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TestMain.dir/TestMain/TestSuites.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestMain.dir\TestMain\TestSuites.cpp.obj -c "C:\Users\Nate\CLionProjects\HW7 - ITAK\TestMain\TestSuites.cpp"
 
 CMakeFiles/TestMain.dir/TestMain/TestSuites.cpp.i: cmake_force
@@ -253,7 +229,6 @@ TestMain_OBJECTS = \
 "CMakeFiles/TestMain.dir/TestMain/testMain.cpp.obj" \
 "CMakeFiles/TestMain.dir/Main/DenialOfServiceAnalyzer.cpp.obj" \
 "CMakeFiles/TestMain.dir/Main/PortScanAnalyzer.cpp.obj" \
-"CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj" \
 "CMakeFiles/TestMain.dir/Main/Configuration.cpp.obj" \
 "CMakeFiles/TestMain.dir/Main/ResultSet.cpp.obj" \
 "CMakeFiles/TestMain.dir/Main/Utils.cpp.obj" \
@@ -265,7 +240,6 @@ TestMain_EXTERNAL_OBJECTS =
 TestMain.exe: CMakeFiles/TestMain.dir/TestMain/testMain.cpp.obj
 TestMain.exe: CMakeFiles/TestMain.dir/Main/DenialOfServiceAnalyzer.cpp.obj
 TestMain.exe: CMakeFiles/TestMain.dir/Main/PortScanAnalyzer.cpp.obj
-TestMain.exe: CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj
 TestMain.exe: CMakeFiles/TestMain.dir/Main/Configuration.cpp.obj
 TestMain.exe: CMakeFiles/TestMain.dir/Main/ResultSet.cpp.obj
 TestMain.exe: CMakeFiles/TestMain.dir/Main/Utils.cpp.obj
@@ -274,7 +248,7 @@ TestMain.exe: CMakeFiles/TestMain.dir/build.make
 TestMain.exe: CMakeFiles/TestMain.dir/linklibs.rsp
 TestMain.exe: CMakeFiles/TestMain.dir/objects1.rsp
 TestMain.exe: CMakeFiles/TestMain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TestMain.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Nate\CLionProjects\HW7 - ITAK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TestMain.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TestMain.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -285,7 +259,6 @@ CMakeFiles/TestMain.dir/build: TestMain.exe
 CMakeFiles/TestMain.dir/requires: CMakeFiles/TestMain.dir/TestMain/testMain.cpp.obj.requires
 CMakeFiles/TestMain.dir/requires: CMakeFiles/TestMain.dir/Main/DenialOfServiceAnalyzer.cpp.obj.requires
 CMakeFiles/TestMain.dir/requires: CMakeFiles/TestMain.dir/Main/PortScanAnalyzer.cpp.obj.requires
-CMakeFiles/TestMain.dir/requires: CMakeFiles/TestMain.dir/Main/Analyzer.cpp.obj.requires
 CMakeFiles/TestMain.dir/requires: CMakeFiles/TestMain.dir/Main/Configuration.cpp.obj.requires
 CMakeFiles/TestMain.dir/requires: CMakeFiles/TestMain.dir/Main/ResultSet.cpp.obj.requires
 CMakeFiles/TestMain.dir/requires: CMakeFiles/TestMain.dir/Main/Utils.cpp.obj.requires

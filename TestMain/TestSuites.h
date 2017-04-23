@@ -15,6 +15,8 @@ public:
 private:
     void testResultSet(std::ostream& out);
     void testConfiguration(std::ostream& out);
+    void testDenialOfServiceAnalyzer(std::ostream& out);
+    void testPortScanAnalyzer(std::ostream& out);
 };
 
 

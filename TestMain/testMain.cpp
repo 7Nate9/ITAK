@@ -10,6 +10,5 @@ int main()
     TestSuites tester;
     tester.testSuites(std::cout);
 
-
     return 0;
 }

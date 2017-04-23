@@ -12,6 +12,9 @@ class PortScanAnalyzer : private Analyzer
 public:
     PortScanAnalyzer(Configuration initConfig);
     ResultSet run(std::istream& in);
+
+private:
+    std::map<std::string, std::map<int, std::string>> inputData;
 };
 
 
